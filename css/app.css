@@ -62,7 +62,7 @@ img {
 }
 
 .col-4 {
-    flex-basis: calc((100% / 12) * 4);
+    flex-basis: calc(((100% / 12) * 4) - 20px);
     border-radius: 20px;
 }
 
@@ -71,7 +71,7 @@ img {
 }
 
 .col-8 {
-    flex-basis: calc((100% / 12) * 8);
+    flex-basis: calc(((100% / 12) * 8) - 20px);
     display: flex;
     position: relative;
     padding-left: 10px;
@@ -135,6 +135,7 @@ img {
 .hero-row {
     display: flex;
     padding: 10px;
+    gap: 20px;
 }
 
 .card-description {
