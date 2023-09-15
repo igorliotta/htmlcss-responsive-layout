@@ -82,6 +82,10 @@ img {
     align-items: center;
 }
 
+.bg-light-blue {
+    background-color: var(--light-blue);
+}
+
 /* COMPONENT CLASSES */
 
 .button {
@@ -109,7 +113,12 @@ img {
     color: white;
 }
 
+/* MAIN */
+/* HERO */
 
+.hero-row {
+    display: flex;
+}
 /* DEBUG */
 
 .debug .container {
@@ -128,7 +137,8 @@ img {
     padding: 10px;
 }
 
-.debug .row {
+.debug .row,
+.debug .hero-row {
     border: 1px solid red;
     padding: 10px;
 }
@@ -136,6 +146,7 @@ img {
 .debug [class^="col"] {
     border: 1px solid blue;
     padding: 10px;
+    min-height: 50px;
 }
 
 /* RESPONSIVE LAYOUT MOBILE */
@@ -154,6 +165,17 @@ img {
     flex-wrap: nowrap;
    }
 
+   .hero-row {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+   }
+
+   .col-8,
+   .col4 {
+    width: 100%;
+   }
+
 }
 
 /* RESPONSIVE LAYOUT TABLET */
@@ -170,6 +192,19 @@ img {
     
        .row {
         flex-wrap: nowrap;
+       }
+
+       .hero-row {
+        flex-wrap: wrap;
+       }
+}
+
+/* RESPONSIVE LAYOUT DESKTOP */
+
+@media only screen and (max-width: 1261px) {
+    
+    .hero-row {
+        flex-wrap: wrap;
        }
 }
 
