@@ -138,4 +138,40 @@ img {
     padding: 10px;
 }
 
+/* RESPONSIVE LAYOUT MOBILE */
+
+@media only screen and (max-width: 480px) {
+
+   .container {
+    width: 100%;
+   }
+
+   .navbar-list {
+    display: none;
+   }
+
+   .row {
+    flex-wrap: nowrap;
+   }
+
+}
+
+/* RESPONSIVE LAYOUT TABLET */
+
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+       }
+    
+       .navbar-list {
+        display: none;
+       }
+    
+       .row {
+        flex-wrap: nowrap;
+       }
+}
+
+
 
