@@ -40,25 +40,30 @@ img {
 .container {
     max-width: 1164px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .container-med {
-    max-width: 1050px;
+    max-width: 1300px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .container-small {
     max-width: 880px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
+    border-radius: 20px;
 }
 
 .col-6 {
@@ -67,6 +72,11 @@ img {
 
 .col-8 {
     flex-basis: calc((100% / 12) * 8);
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
 }
 
 .col-12 {
@@ -97,6 +107,12 @@ img {
     padding: 0 18px;
 }
 
+.icon {
+    color: var(--blue);
+    font-size: 52px;
+    padding-top: 20px;
+}
+
 /* HEADER */
 .page-header {
     background-color: var(--blue);
@@ -118,7 +134,60 @@ img {
 
 .hero-row {
     display: flex;
+    padding: 10px;
 }
+
+.card-description {
+    text-align: center;
+}
+
+.card-title {
+    color: var(--blue);
+}
+
+.card-text {
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.text-left {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.app-store {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.button-app-store {
+    background-color: var(--blue);
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0 60px;
+    font-size: 14px;
+}
+
+.phone-img {
+    width: 150px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 /* DEBUG */
 
 .debug .container {
@@ -201,7 +270,7 @@ img {
 
 /* RESPONSIVE LAYOUT DESKTOP */
 
-@media only screen and (max-width: 1261px) {
+@media only screen and (max-width: 1800px) {
     
     .hero-row {
         flex-wrap: wrap;
