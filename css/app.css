@@ -473,7 +473,7 @@ img {
 
 /* RESPONSIVE LAYOUT DESKTOP */
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1200px) {
     
     .hero-row {
         flex-wrap: wrap;
