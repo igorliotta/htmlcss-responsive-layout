@@ -124,6 +124,10 @@ img {
     background-color: var(--purple);
 }
 
+.pd {
+    padding: 20px;
+}
+
 /* COMPONENT CLASSES */
 
 .button {
@@ -282,7 +286,7 @@ img {
 /* TESTIMONIALS */
 
 
-.testimonials {
+.page-testimonials {
     margin-top: 20px;
 }
 
@@ -330,10 +334,48 @@ img {
 
 /* BENEFITS */
 
+.page-benefits {
+    background-color: var(--purple);
+}
+
 .row-benefits {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.benefits-title {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.number {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--purple);
+    padding: 10px;
+}
+
+.benefits-title-card {
+    font-size: 23px;
+    color: var(--purple);
+    padding: 10px;
+}
+
+.benefits-text {
+    font-size: 15px;
+    padding: 20px 10px;
+}
+
+.button-more {
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 11px;
+    background-color: var(--purple);
+    border-radius: 20px;
+    padding: 0 60px;
 }
 
 /* DEBUG */
