@@ -187,7 +187,28 @@ img {
     justify-content: center;
 }
 
+/* STRATEGIC PLANNING */
+.page-planning {
+    background-color: var(--purple);
+}
 
+.planning-row {
+    display: flex;
+    padding: 10px;
+}
+
+.planning-1-img {
+    padding: 100px 0;
+}
+
+.planning-title,
+.planning-text {
+    color: white;
+}
+
+.planning-text {
+    padding: 30px 0;
+}
 
 /* DEBUG */
 
@@ -208,7 +229,8 @@ img {
 }
 
 .debug .row,
-.debug .hero-row {
+.debug .hero-row,
+.debug .planning-row {
     border: 1px solid red;
     padding: 10px;
 }
@@ -221,7 +243,7 @@ img {
 
 /* RESPONSIVE LAYOUT MOBILE */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
 
    .container {
     width: 100%;
