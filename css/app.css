@@ -65,6 +65,9 @@ img {
     flex-basis: calc(((100% / 12) * 2));
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-4 {
@@ -380,6 +383,12 @@ img {
     width: 100%;
    }
 
+   .col-12 {
+    width: 100%;
+    flex-direction: column;
+   }
+
+   
 }
 
 /* RESPONSIVE LAYOUT TABLET */
@@ -406,6 +415,9 @@ img {
         flex-wrap: wrap;
         flex-direction: column;
        }
+
+
+       
 }
 
 /* RESPONSIVE LAYOUT DESKTOP */
@@ -415,6 +427,7 @@ img {
     .hero-row {
         flex-wrap: wrap;
        }
+
 }
 
 
