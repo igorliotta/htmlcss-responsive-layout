@@ -266,6 +266,17 @@ img {
 
 .testimonials-header {
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.testimonials-header-title {
+    padding: 10px 0;
+    color: var(--purple);
+}
+
+.testimonials-header-text {
+    padding: 10px 0;
+    font-size: 18px;
 }
 
 /* DEBUG */
