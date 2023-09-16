@@ -313,6 +313,7 @@ img {
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
+    padding: 5px;
 }
 
 .testimonial-text {
@@ -325,6 +326,14 @@ img {
     padding: 20px;
     text-transform: uppercase;
     color: white;
+}
+
+/* BENEFITS */
+
+.row-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 /* DEBUG */
