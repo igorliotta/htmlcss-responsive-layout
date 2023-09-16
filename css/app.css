@@ -256,6 +256,18 @@ img {
     border-radius: 50%;
 }
 
+/* TESTIMONIALS */
+
+
+.testimonials {
+    margin-top: 20px;
+}
+
+
+.testimonials-header {
+    margin-bottom: 20px;
+}
+
 /* DEBUG */
 
 .debug .container {
@@ -274,9 +286,7 @@ img {
     padding: 10px;
 }
 
-.debug .row,
-.debug .hero-row,
-.debug .planning-row {
+.debug [class^="row"] {
     border: 1px solid red;
     padding: 10px;
 }
