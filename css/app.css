@@ -374,6 +374,17 @@ img {
     padding: 0 60px;
 }
 
+/* ABOUT US */
+
+.page-about-us {
+    margin-top: 20px;
+}
+
+.row-page-about-us {
+    display: flex;
+    gap: 20px;
+}
+
 /* DEBUG */
 
 .debug .container {
