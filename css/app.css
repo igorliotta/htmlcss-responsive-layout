@@ -451,6 +451,56 @@ img {
     padding: 0 30px;
 }
 
+/* GET STARTED */
+
+.page-get-started {
+    background-color: var(--purple);
+    margin-top: 20px;
+}
+
+.get-started-items {
+   text-align: center;
+}
+
+.get-started {
+    color: grey;
+}
+
+.get-started-title-2 {
+    color: white;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.get-started-title-1 {
+    color: var(--yellow);
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.get-started-text {
+    color: white;
+    line-height: 35px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.button-get-started {
+    color: var(--purple);
+    background-color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 70px;
+    margin-bottom: 20px;
+}
+
+.privacy {
+    text-decoration: underline;
+}
+
 /* DEBUG */
 
 .debug .container {
