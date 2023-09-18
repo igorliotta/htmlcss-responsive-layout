@@ -63,8 +63,6 @@ img {
 
 .col-2 {
     flex-basis: calc(((100% / 12) * 2));
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,13 +91,15 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 .col-12 {
     flex-basis: calc((100% / 12) * 12);
     display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 /* UTILITY CLASSES*/
@@ -180,6 +180,7 @@ img {
 .card-text {
     font-size: 14px;
     padding: 10px 0px;
+    line-height: 35px;
 }
 
 .grow {
@@ -189,6 +190,7 @@ img {
 .text-left {
     font-size: 14px;
     padding-top: 10px;
+    line-height: 35px;
 }
 
 .app-store {
@@ -236,6 +238,7 @@ img {
 
 .planning-text {
     padding: 30px 0;
+    line-height: 35px;
 }
 
 .planning-2-text {
@@ -243,6 +246,7 @@ img {
     padding: 30px 0;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    line-height: 35px;
 }
 
 .planning-2-img {
@@ -267,6 +271,7 @@ img {
 .planning-2-cit {
     font-size: 16px;
     padding: 30px 0;
+    line-height: 35px;
 }
 
 .circle-button {
@@ -300,6 +305,7 @@ img {
 .testimonials-header-text {
     padding: 10px 0;
     font-size: 18px;
+    line-height: 35px;
 }
 
 .testimonials-row {
@@ -320,6 +326,7 @@ img {
     font-size: 20px;
     padding: 0 20px;
     color: white;
+    line-height: 35px;
 }
 
 .testimonial-name {
@@ -362,6 +369,7 @@ img {
 .benefits-text {
     font-size: 15px;
     padding: 20px 10px;
+    line-height: 35px;
 }
 
 .button-more {
@@ -383,6 +391,64 @@ img {
 .row-page-about-us {
     display: flex;
     gap: 20px;
+}
+
+.about-us-title {
+    color: var(--purple);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-us-text {
+    padding: 10px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.container-about-us-img {
+    width: 200px;
+    aspect-ratio: 1;
+    position: relative;
+    margin: 0 auto;
+}
+
+.card-right {
+    padding: 10px;
+}
+
+.about-us-img {
+    width: 200px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.quote {
+    font-size: 70px;
+    color: var(--purple);
+    position: absolute;
+    right: 0;
+}
+
+.about-us-title-card {
+    color: var(--purple);
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttom-linkedin {
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 11px;
+    background-color: var(--purple);
+    border-radius: 20px;
+    padding: 0 30px;
 }
 
 /* DEBUG */
@@ -432,13 +498,24 @@ img {
     gap: 10px;
    }
 
-   .col-8,
-   .col4 {
+   .col-8 {
     width: 100%;
+   }
+
+   .col-6 {
+    flex-basis: 100%;
+   }
+
+   .col-8 {
+    flex-wrap: wrap;
    }
 
    .col-12 {
     width: 100%;
+    flex-direction: column;
+   }
+
+   .row-page-about-us {
     flex-direction: column;
    }
 
@@ -466,6 +543,12 @@ img {
         flex-wrap: wrap;
         flex-direction: column;
        }
+
+       .row-benefits {
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+    
 
 
        
