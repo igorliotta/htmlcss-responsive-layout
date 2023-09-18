@@ -23,7 +23,7 @@ a {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 :root {
@@ -44,7 +44,7 @@ img {
 }
 
 .container-med {
-    max-width: 1300px;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -83,7 +83,6 @@ img {
 .col-8 {
     flex-basis: calc(((100% / 12) * 8) - 20px);
     display: flex;
-    position: relative;
     padding-left: 10px;
     padding-top: 20px;
     border-radius: 20px;
@@ -208,10 +207,7 @@ img {
 }
 
 .phone-img {
-    width: 150px;
     display: block;
-    position: absolute;
-    bottom: 0;
 }
 
 .right {
@@ -314,10 +310,10 @@ img {
 
 .testimonial-img {
     width: 150px;
-    height: 150px;
+    aspect-ratio: 1;
     object-fit: cover;
     border-radius: 50%;
-    padding: 5px;
+    padding: 15px;
 }
 
 .testimonial-text {
@@ -411,10 +407,6 @@ img {
 
 @media only screen and (max-width: 576px) {
 
-   .container {
-    width: 100%;
-   }
-
    .navbar-list {
     display: none;
    }
@@ -446,9 +438,6 @@ img {
 
 @media only screen and (max-width: 768px) {
 
-    .container {
-        width: 100%;
-       }
     
        .navbar-list {
         display: none;
